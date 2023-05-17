@@ -7,7 +7,8 @@ class Game:
     self.players.append(
       {"Name": player.name,
        "player": player,
-       "status": "added"
+       "status": "added",
+       "score": 0
       }
     )
 

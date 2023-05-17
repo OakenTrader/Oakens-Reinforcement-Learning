@@ -1,4 +1,4 @@
-from game import Player
+from ..games.game import Player
 
 class MDP_State:
   def __init__(self, data):
