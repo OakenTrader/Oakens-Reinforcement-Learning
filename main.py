@@ -1,7 +1,8 @@
 import PIL
 from PIL import Image
-from Salesman import *
-from game import HumanPlayer
+from games.Salesman import *
+from games.TicTacToe import TicTacToe
+from games.game import HumanPlayer
 
 width = 400
 height = 300
@@ -13,8 +14,12 @@ a = "4"
 b = a.split(" ")
 print(b)
 
-# player = HumanPlayer("Bob")
-# game = Salesman(player)
+player = HumanPlayer("Bob")
+player2 = HumanPlayer("Mike")
+# game = Salesman()
+# game.add_player(player)
 # game.play()
-
-import temp
+game = TicTacToe()
+game.add_player(player)
+game.add_player(player2)
+game.play()
