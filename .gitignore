@@ -1,0 +1,4 @@
+*.png
+temp.py
+*.pyc
+*.cpython-310.pyc

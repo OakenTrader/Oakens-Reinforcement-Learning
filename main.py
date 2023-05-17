@@ -6,13 +6,15 @@ from game import HumanPlayer
 width = 400
 height = 300
 
-img  = Image.new( mode = "RGB", size = (width, height) )
+# img  = Image.new( mode = "RGB", size = (width, height) )
 # img.show()
 
 a = "4"
 b = a.split(" ")
 print(b)
 
-player = HumanPlayer("Bob")
-game = Salesman(player)
-game.play()
+# player = HumanPlayer("Bob")
+# game = Salesman(player)
+# game.play()
+
+import temp

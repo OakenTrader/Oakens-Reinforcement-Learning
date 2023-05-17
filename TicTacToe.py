@@ -46,3 +46,6 @@ class TicTacToe(Game):
       else:
         print("Invalid Move")
     self.turn = (self.turn + 1) % 2
+
+  def display(self):
+    
