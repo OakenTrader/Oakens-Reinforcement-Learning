@@ -1,4 +1,5 @@
 from ..games.game import Player
+import numpy as np
 
 class MDP_State:
     def __init__(self, data):

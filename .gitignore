@@ -1,5 +1,12 @@
+venv
+__pycache__
 *.png
 temp.py
 *.pyc
 *.cpython-310.pyc
-games/__init__.py
+.idea/
+assets/*
+test.py
+displays/*
+**/*.csv
+**/__init__.py
